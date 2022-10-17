@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+---
+<ul>
+    {% for post in collections.posts %}
+    <hr>
+    <li>
+        <span class="heading">Heading: {{ post.data.heading }}</span> <br>
+        <span class="title">Title: {{ post.data.subtitle }}</span> <br>
+        <span class="description">Description: {{ post.data.description }}</span> <br>
+        <a class="link" href="{{ post.url }}">Visit</a>
+    </li>
+
+    {% endfor %}
+</ul>

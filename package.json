@@ -1,0 +1,28 @@
+{
+  "name": "netlify-cms-test-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsaurabhprdxn/sg-netlify-cms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsaurabhprdxn/sg-netlify-cms/issues"
+  },
+  "homepage": "https://github.com/zsaurabhprdxn/sg-netlify-cms#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "markdown": "^0.5.0",
+    "markdown-it-container": "^3.0.0"
+  }
+}
